@@ -54,7 +54,7 @@ runs:
         GLOB: ${{ inputs.glob }}
         MATCH: ${{ inputs.match }}
         REPLACE: ${{ inputs.replace }}
-      run: curl -fsSL "https://raw.githubusercontent.com/techdevcenter/deploy/37bb74522f55b7f2f1fde28363bcc80e8836bde1/replace.ts" | time bun -
+      run: curl -fsSL "https://raw.githubusercontent.com/techdevcenter/deploy/60b3d7a972f84abbc57687bb44168d0909ad369e/replace.ts" | time bun -
 
     - name: Set Commit Message
       shell: bash
